@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <style>
+        * {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section h3 {
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 5px;
+}
+
+.copyright {
+    text-align: center;
+}
+    </style>
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <!-- header -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid p-3 text-white" style="background-color: #89B9AD; ">
+            <a class="navbar-brand fs-2 fw-bolder text-white fst-italic" href="#">VILLA</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active fw-large text-white" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Properties</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Property Details
+                        </a>
+                        <ul class="dropdown-menu text-white" style="background-color: #89B9AD;">
+                            <li><a class="dropdown-item" href="#">Independent House</a></li>
+                            <li><a class="dropdown-item" href="#">Apartments</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Villas</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" aria-disabled="false">Contact Us</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success text-white" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- header -->
+
+
+    <!-- carousel -->
+    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src=" https://www.houseofhiranandani.com/data-content/project_location/15.jpg?v=0.01"
+                    class="d-block w-100" alt="..." height="500px">
+
+            </div>
+            <div class="carousel-item">
+                <img src="https://5.imimg.com/data5/LU/RU/FR/SELLER-58274503/independent-house-construction.PNG"
+                    class="d-block w-100" alt="..." height="500px">
+            </div>
+            <div class="carousel-item">
+                <img src="https://c4.wallpaperflare.com/wallpaper/831/432/1004/contemporary-dream-villa-in-california-gray-rectangular-concrete-firepit-wallpaper-preview.jpg"
+                    class="d-block w-100" alt="..." height="500px">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- carousel -->
+
+    <!-- cards -->
+    <div class="cards" style="display: flex; justify-content: space-around; margin-top: 20px;">
+        <div class="card" style="width: 18rem;">
+            <img src="https://c4.wallpaperflare.com/wallpaper/575/667/599/trees-design-house-lawn-wallpaper-preview.jpg"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Luxury Villa</h5>
+                <p class="card-text">Villas are luxurious homes with spacious layouts, gardens, and premium amenities
+                    for relaxation.</p>
+                <a href="#" class="btn btn-primary">Book Now</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="https://www.omaxe.com/blog/wp-content/uploads/2023/06/Apartment.jpg" class="card-img-top"
+                alt="..." height="191.37px">
+            <div class="card-body">
+                <h5 class="card-title">Appartments</h5>
+                <p class="card-text">Apartments are compact living spaces, often in multi-story buildings, offering
+                    convenience.</p>
+                <a href="#" class="btn btn-primary">Book Now</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="https://dyimg1.realestateindia.com/prop_images/2306542/1175094_1-350x350.jpg" class="card-img-top"
+                alt="..." height="191.37px">
+            <div class="card-body">
+                <h5 class="card-title">Independent House</h5>
+                <p class="card-text">Independent houses are standalone properties, offering privacy, space, and freedom
+                    for customization.</p>
+                <a href="#" class="btn btn-primary">Book Now</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="https://is1-3.housingcdn.com/4f2250e8/da3f33af18d3a130808b42deef86122f/v0/fs/happy_zen_villas-tellapur-hyderabad-happy_horizons_property_consultants.jpeg"
+                class="card-img-top" alt="..." height="191.37px">
+            <div class="card-body">
+                <h5 class="card-title">Villa</h5>
+                <p class="card-text">Villas are luxurious homes with spacious layouts, gardens, and premium amenities
+                    for relaxation.</p>
+                <a href="#" class="btn btn-primary">Book Now</a>
+            </div>
+        </div>
+    </div>
+    <!-- cards -->
+
+    <!-- accordion -->
+    <div class="accordion accordion-flush mt-3" id="accordionFlushExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed bg-success-subtle border border-dark" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false"
+                    aria-controls="flush-collapseOne">
+                    What is average price of Villa?
+                </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Villas are luxurious homes with spacious layouts, gardens, and pools,
+                    perfect for relaxation. Prices typically range from <code>$300,000 to $5 million+.</code></div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed bg-success-subtle border border-dark" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                    aria-controls="flush-collapseTwo">
+                    Why should we buy Independent house?
+                </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Buying an independent house offers privacy, freedom to customize, and a
+                    sense of community. It often provides more space, potential for appreciation, and a personal
+                    sanctuary away from urban congestion.</div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed bg-success-subtle border border-dark" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false"
+                    aria-controls="flush-collapseThree">
+                    where is the best place to buy Appartments?
+                </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Bangalore is ideal for buying apartments due to its booming tech industry,
+                    excellent infrastructure, and vibrant culture. It offers good rental yields and a strong demand for
+                    housing.</div>
+            </div>
+        </div>
+    </div>
+    <!-- accordion -->
+
+    <!-- buttons -->
+    <div class="btn-group mt-3 w-100" role="group" aria-label="Basic radio toggle button group">
+        <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+        <label class="btn btn-outline-warning" for="btnradio1">Luxury Villas</label>
+      
+        <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+        <label class="btn btn-outline-success" for="btnradio2">Independent Houses</label>
+      
+        <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+        <label class="btn btn-outline-danger" for="btnradio3">Apartments</label>
+      </div>
+
+
+    <!-- buttons -->
+
+    <!-- modal-->
+
+    <button type="button" class="btn btn-primary w-100 mt-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+        Book to Purchase a Villa
+    </button>
+
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Payment</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Do you want to purchase villa
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
+                    <button type="button" class="btn btn-primary">Yes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <button type="button" class="btn btn-primary w-100 mt-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+        Book to Purchase a Independent House
+    </button>
+
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Payment</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Do you want to purchase Independent House
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
+                    <button type="button" class="btn btn-primary">Yes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button type="button" class="btn btn-primary w-100 mt-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+        Book to Purchase a Appartment.
+    </button>
+
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Payment</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Do you want to purchase Appartment?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
+                    <button type="button" class="btn btn-primary">Yes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- modal -->
+
+<!-- footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <p>Feel free to contact us and live Luxuriously</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <ul>
+                    <li>Address: 123 Villa Street, City, State, Country</li>
+                    <li>Phone: +123 456 7890</li>
+                    <li>Email: info@villaswebsite.com</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Villas</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2024 Villas Website. All rights reserved.</p>
+        </div>
+    </footer>
+<!-- footer -->
+
+</body>
+
+</html>
